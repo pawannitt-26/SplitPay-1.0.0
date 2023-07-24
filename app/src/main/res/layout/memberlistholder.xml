@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/memberListHolder"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="3dp"
+    android:layout_margin="12dp"
+    android:background="#F90A0000">
+
+        <TextView
+            android:id="@+id/initials"
+            android:layout_width="58dp"
+            android:layout_height="54dp"
+            android:layout_margin="5dp"
+            android:hint="#"
+            android:padding="12dp"
+            android:textAlignment="center"
+            android:textColor="#F9F5F5"
+            android:textColorHint="#60F2F0F0"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="154dp"
+            android:layout_height="54dp"
+            android:layout_margin="5dp"
+            android:hint="Username"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="#F9F5F5"
+            android:textColorHint="#60F2F0F0"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="#CD22B3"
+            android:text="+ Add"
+            android:textColor="#320117"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.876"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.953" />
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splitListHolder"
+    android:background="#F90A0000"
+    android:padding="10dp"
+    android:layout_margin="12dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/userNameView"
+        android:layout_width="159dp"
+        android:layout_height="match_parent"
+        android:layout_margin="3dp"
+        android:hint="User Name"
+        android:padding="10dp"
+        android:textColor="#F9F5F5"
+        android:textColorHint="#60F2F0F0"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/amountView"
+        android:layout_width="135dp"
+        android:layout_height="match_parent"
+        android:layout_margin="3dp"
+        android:hint="Amount"
+        android:padding="10dp"
+        android:textAlignment="viewEnd"
+        android:textColor="#F9F5F5"
+        android:textColorHint="#60F2F0F0"
+        android:textSize="18sp" />
+
+</LinearLayout>

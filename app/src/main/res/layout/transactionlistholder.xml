@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/transactionListHolder"
+    android:padding="8dp"
+    android:background="#F90A0000"
+    android:layout_margin="12dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/userName"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:hint="User Name"
+        android:padding="10dp"
+        android:textColor="#F9F5F5"
+        android:textColorHint="#60F2F0F0"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:hint="Amount"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="#F9F5F5"
+        android:textColorHint="#60F2F0F0"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnSettle"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_margin="3dp"
+        android:backgroundTint="#CD22B3"
+        android:text="Settle"
+        android:textColor="#320117"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.953" />
+
+</LinearLayout>
